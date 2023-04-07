@@ -62,6 +62,7 @@ bidButtons.forEach(button => {
         if (bidAmount > currentPrice) {
             priceDiv.textContent = `Current Price: $${bidAmount}`;
             bidAmountInput.value = ''; // Clear bid amount input field
+            currentPrice = bidAmount;
             alert('Bid placed successfully!');
         } else {
             alert(`Bid amount must be higher than the current price of $${currentPrice}`);
