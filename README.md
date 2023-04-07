@@ -25,10 +25,13 @@ I used json-server to create a mock server and also created a db.json file in wh
 One of the challenges faced during the development of this web app was making requests to the server and updating the UI dynamically without reloading the page. Another challenge was properly formatting and styling the UI to make it visually appealing and user-friendly.The bid button also did not fetch or increase the data as expected.
 
 Author:Brian Kiprono Bett
-email;briankibish@gmail.com
+email;briankibish@gmail.com.com
       :brian.bett@student.moringaschool.com
+     (<https://github.com/brianbett1998>)
 
 Contributors
 Francis Kipchumba-TM
 
 
+## License
+This project is licensed under the MIT license
