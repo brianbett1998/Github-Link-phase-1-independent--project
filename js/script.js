@@ -1,4 +1,7 @@
 const auctionItems = document.getElementById('auction-items');
+document.addEventListener('DOMContentLoaded', () =>{
+    
+});
 
 // Fetch auction items from server and display them in the browser
 fetch('http://localhost:3000/supercars')
