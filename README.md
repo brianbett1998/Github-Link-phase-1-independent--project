@@ -28,6 +28,9 @@ Author:Brian Kiprono Bett
 email;briankibish@gmail.com.com
       :brian.bett@student.moringaschool.com
      (<https://github.com/brianbett1998>)
+     
+ Link to live site:
+ https://brianbett1998.github.io/Github-Link-phase-1-independent--project/
 
 Contributors
 Francis Kipchumba-TM
