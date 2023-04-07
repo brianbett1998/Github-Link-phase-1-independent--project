@@ -23,17 +23,20 @@ fetch('http://localhost:3000/supercars')
             price.classList.add('price');
             price.textContent = `Current Price: $${item.price}`;
             div.appendChild(price);
+
             const bid = document.createElement('div');
             bid.classList.add('bid');
             const label = document.createElement('label');
             label.setAttribute('for', `bid-amount-${item.id}`);
             label.textContent = 'Enter bid amount:';
             bid.appendChild(label);
+
             const input = document.createElement('input');
             input.setAttribute('type', 'text');
             input.setAttribute('id', `bid-amount-${item.id}`);
             input.setAttribute('placeholder', 'USD');
             bid.appendChild(input);
+            
             const button = document.createElement('button');
             button.classList.add('bid-button');
             button.setAttribute('data-id', item.id);
@@ -62,8 +65,3 @@ bidButtons.forEach(button => {
         }
     });
 });
-
-// Refresh the page after a bid is placed
-function refreshPage() {
-    window.location.reload();
-}
