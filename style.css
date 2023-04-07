@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+  border-radius: 0.5rem;
+}
+
+.auction {
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin: 1rem;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.auction:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.auction img {
+  width: 100%;
+  display: block;
+}
+
+.auction h3 {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.auction p {
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+.bid {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(100%);
+  transition: all 0.2s ease-in-out;
+}
+
+.auction:hover .bid {
+  transform: translateY(0);
+}
+
+.bid label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.bid input[type="text"] {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.bid button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.bid button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0 0 0 1rem;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+

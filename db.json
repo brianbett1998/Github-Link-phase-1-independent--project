@@ -1,0 +1,44 @@
+{
+"supercars": [
+      {
+        "id": 1,
+        "name": "lamborghini-urus",
+        "image": "https://smgmedia.blob.core.windows.net/images/113814/1024/lamborghini-urus-suv-petrol-8f0f8b1ecc39.jpg",
+        "description":"Lamborghini Urus is the first Super Sport Utility Vehicle in the world, merging the soul of a super sports car with the practical functionality of an SUV. Powered by Lamborghini’s 4.0-liter twin-turbo V8 engine, the Urus is all about a performance mindset that brings together fun-to-drive and astounding vehicle capabilities. The design, performance, driving dynamics and unbridled emotion flow effortlessly into this visionary realization of authentic Lamborghini DNA..",
+        "bids": 0,
+        "price": "120,000 USD"
+      },
+      {
+        "id": 2,
+        "name": "Buggati-Chrion",
+        "image": "https://w0.peakpx.com/wallpaper/745/825/HD-wallpaper-bugatti-chiron-side-view-shadow-supercars-vehicle.jpg",
+        "bids": 0,
+        "description":"The CHIRON is the fastest, most powerful, and exclusive production super sports car in BUGATTI's history. Its sophisticated design, innovative technology, and iconic, performance-oriented form make it a unique masterpiece of art, form and technique, that pushes boundaries beyond imagination",
+        "price":"4,000,000 USD"
+      },
+      {
+        "id": 3,
+        "name": "Koeniggsegg-Jesko-Absolut",
+        "image": "https://www.supercars.net/blog/wp-content/uploads/2019/04/Jesko2.jpg",
+        "bids": 0,
+        "description":"The Koenigsegg Jesko is a limited production mid-engine sports car produced by Swedish automobile manufacturer Koenigsegg. The car was introduced at the 2019 Geneva Motor Show and it completely sold out before the 2019 Geneva Motor Show ended",
+         "price":"3,500,000 USD"
+      },
+      {
+        "id": 4,
+        "name": "Rolls-Royce- Spectre",
+        "image": "https://www.topgear.com/sites/default/files/2022/10/RR_Spectre_Shot_02_Front_3QTR.jpg",
+        "bids": 0,
+        "description":"The Rolls-Royce Spectre is a full-size electric luxury car manufactured by Rolls-Royce Motor Cars. The first deliveries of the car will arrive in Q4 2023.It will be Rolls-Royce's first EV and will ride on the same platform as the Phantom and Cullinan",
+        "price":"180,000 USD"
+      },
+      {
+        "id": 5,
+        "name": "Rimac-Nevera",
+        "image": "https://www.topgear.com/sites/default/files/cars-car/carousel/2021/06/rimacnevera-26_0.jpg",
+        "bids": 0,
+        "description":"This is the fastest Electric Vehicle in the world.The Rimac Nevera is an all-electric sports car designed and manufactured by the Croatian automotive manufacturer Rimac",
+        "price":"2,500,000 USD"
+      }
+    ]
+  }
